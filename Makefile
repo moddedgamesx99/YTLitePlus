@@ -6,8 +6,8 @@ FINALPACKAGE = 1
 CODESIGN_IPA = 0
 PACKAGE_VERSION = X.X.X-X.X
 
-TWEAK_NAME = YTLitePlus
-DISPLAY_NAME = YouTube
+TWEAK_NAME = MGTube
+DISPLAY_NAME = MGTube
 BUNDLE_ID = com.google.ios.youtube
 
 EXTRA_CFLAGS := $(addprefix -I,$(shell find Tweaks/FLEX -name '*.h' -exec dirname {} \;)) -I$(THEOS_PROJECT_DIR)/Tweaks
